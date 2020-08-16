@@ -11,7 +11,7 @@ node ('ubuntu-1-agent') {
     stage('Build image') {
         /* This builds the actual image */
 
-        app = docker.build("biswalbi/test")
+        app = docker.build("biswalbi/test:test2")
     }
 
     stage('Test image') {
