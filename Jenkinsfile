@@ -1,4 +1,5 @@
-node('ubuntu-1-agent') {
+pipeline {
+    agent { label 'ubuntu' }
 	
     def app
 
