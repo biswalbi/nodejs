@@ -1,4 +1,4 @@
-node (label: 'slave') {
+node (label: 'ubuntu') {
     def app
 
     stage('Clone repository') {
