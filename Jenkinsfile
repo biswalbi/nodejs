@@ -1,4 +1,5 @@
-node (label: 'ubuntu') {
+node ('ubuntu-1-agent') {
+	
     def app
 
     stage('Clone repository') {
