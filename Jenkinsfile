@@ -1,5 +1,6 @@
+agentName = "ubuntu-1"
 pipeline {
-    agent { label 'ubuntu' }
+    agent none
 	
     def app
 
@@ -7,18 +8,21 @@ pipeline {
         /* Cloning the Repository to our Workspace */
 
         checkout scm
+	    agentName="ubuntu-1"
     }
 
     stage('Build image') {
         /* This builds the actual image */
 
         app = docker.build("biswalbi/test")
+	    agentName="ubuntu-1"
     }
 
     stage('Test image') {
         
         app.inside {
             echo "Tests passed"
+		agentName="ubuntu-1"
         }
     }
 
