@@ -1,4 +1,4 @@
-node ('ubuntu-1-agent') {
+node('ubuntu-1-agent') {
 	
     def app
 
