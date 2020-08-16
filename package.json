@@ -1,5 +1,5 @@
 {
-  "name": "crudsinfotech-nodeapp",
+  "name": "Biswatest-nodeapp",
   "version": "1.0.0",
   "description": "A Hello World HTTP server using Node JS",
   "main": "main.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rchidana/NodeApp"
+    "url": "https://github.com/biswalbi/nodejs"
   },
   "keywords": [
     "node",
     "docker",
     "dockerfile"
   ],
-  "author": "crudsinfotechng@gmail.com",
-  "license": "ISC",
+  "author": "biswal81@gmail.com",
+  "license": "IBCORE",
   "devDependencies": { "test": ">=0.6.0" }
 }
 
